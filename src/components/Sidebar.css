@@ -1,0 +1,87 @@
+.Sidebar{
+    width: 25%;
+    height: 100vh;
+    padding-top: 5rem;
+    position: fixed;
+}
+.sidebar_items ul{
+    list-style-type: none;
+}
+.sidebar_items li{
+    padding: 1.2rem ;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.sidebar_items li span{
+    padding: 0 1rem;
+    margin-top: -0.1em;
+}
+.hr{
+    margin-left: 1rem;
+}
+.ad_icon{
+    color: rgb(25, 110, 245);
+}
+.sd_ico{
+    color: rgb(25, 110, 245);
+}
+.sd_i{
+    border-left: 5px solid rgb(25, 110, 245);
+}
+.group{
+    width: 20px;
+    height: 25px;
+    background-color: orange;
+    color: #fff;
+    text-align: center;
+}
+.group_li{
+    display: flex;
+}
+.ad_ico{
+    background-color: #ccc;
+    font-size: 20px;
+    border-radius: 30px;
+}
+@media screen and (max-width:1160px) {
+    .Sidebar{
+        width: 7%;
+        background-color: #fff;
+        box-shadow: 0.02em 0.02em 0.2em rgba(0,0,0,0.2);
+    }
+    .sidebar_items li span{
+        display: none;
+    }
+    .sd_ico,.sd_icon,.ad_icon,.ad_ico{
+        font-size: 25px;
+    }
+    .sidebar_items li{
+        padding-left:1.7rem;
+    }
+    .hr{
+        margin-right: 1rem;
+    }
+}
+@media (min-width:280px) and (max-width:530px){
+    .Sidebar{
+        width: 13%;
+    }
+    .sidebar_items li{
+        padding-left: 1rem;
+    }
+}
+@media (min-width:530px) and (max-width:1020px) {
+    .Sidebar{
+        width: 12%;
+    }
+}
+@media (min-width:672px) and (max-width:1014px){
+    .Sidebar{
+        width: 8%;
+    }
+}
+@media (min-width:668px) and (max-width:948px){
+    .Sidebar{
+        width: 10%;
+    }
+}

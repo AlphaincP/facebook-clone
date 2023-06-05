@@ -1,0 +1,30 @@
+.homepage{
+    display: flex;
+    padding-top: 7rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:450px) {
+    .homepage{
+        margin-left: 1.6rem;
+        padding-top: 5rem;
+    }
+}
+@media (min-width:450px) and (max-width:730px){
+    .homepage{
+        margin-left: 1.9rem;
+        padding-top: 5rem;
+    }
+}
+@media (min-width:550px) and (max-width:730px){
+    .homepage{
+        margin-left: 3rem;
+    }
+}
+@media screen and (max-width:395px){
+    .homepage{
+        margin-left: 2.63rem;
+    }
+}

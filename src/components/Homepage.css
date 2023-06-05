@@ -1,0 +1,16 @@
+.Homepage{
+    overflow-y: auto;
+    display: flex;
+}
+.sponsor_section{
+   display: none;
+}
+@media screen and (min-width:768px) {
+    .sponsor_section{
+        display: block;
+        margin:0 1.5rem;
+        position: relative;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+}

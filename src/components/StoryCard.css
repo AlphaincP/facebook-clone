@@ -1,0 +1,166 @@
+.story_card{
+    width: 40rem;
+    background-color: #fff;
+    box-shadow: 0.02em 0.02em 0.2em rgba(0,0,0,0.2);
+    padding: 1rem;
+    border-radius: 10px;
+    margin-left: 2rem;
+}
+.story_items ul{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.story_items ul li span{
+    font-size: 18px;
+}
+.st_icon{
+    font-size: 30px;
+    margin: 0 1rem;
+}
+.stories{
+    color: rgb(25, 110, 245);
+    border-bottom: 2px solid rgb(25, 110, 245);
+}
+.story_items ul li{
+    padding: 1rem 3rem;
+    display: flex;
+}
+.hr1{
+    width: 100%;
+}
+.story_story{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.story_add{
+    width: 180px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0.02em 0.02em 0.2em rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+.story_add img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    height: 65%;
+}
+.story_add span{
+    font-size: 40px;
+    color:rgb(25, 110, 245) ;
+}
+.st_ico{
+    margin-left: 4.5rem;
+    
+}
+.story_add p{
+    text-align: center;
+    margin-top: -1rem;
+    font-weight: 500;
+}
+.story_details{
+    float: right;
+    margin-top: -17rem;
+    margin-right: 5rem;
+}
+.story_details ul{
+    list-style-type: none;
+}
+.story_details li{
+    font-size: 0.875rem;
+    padding: 1.3rem 0;
+}
+.sd_icon{
+    font-size: 20px;
+}
+
+@media  screen and (max-width:450px) {
+    .story_card{
+        width: 356px;
+
+    }
+    .story_items ul li{
+        padding-left: 1rem;
+    }
+    .st_icon{
+        font-size: 18px;
+    }
+    .story_items ul li span{
+        font-size: 15px;
+    }
+    .story_add{
+        height: 200px;
+        width: 120px;
+    }
+    .story_story{
+        margin-top: 0.6rem;
+        margin-left: 0.3rem;
+    }
+    .st_ico{
+        margin-left: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .story_add p{
+        margin-top: -2.1rem;
+    }
+}
+@media (min-width:450px) and (max-width:730px) {
+    .story_card{
+        width: 395px;
+    }
+    .story_items ul li{
+        padding-left: 1rem;
+    }
+    .st_icon{
+        font-size: 18px;
+    }
+    .story_items ul li span{
+        font-size: 15px;
+    }
+    .story_add{
+        height: 200px;
+        width: 120px;
+    }
+    .story_story{
+        margin-top: 0.6rem;
+        margin-left: 0.3rem;
+    }
+    .st_ico{
+        margin-left: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .story_add p{
+        margin-top: -2.1rem;
+    }
+}
+@media (min-width:550px) and (max-width:730px) {
+    .story_card{
+        width: 480px;
+    }
+}
+@media (min-width:350px) and (max-width:730px){
+    .story_details{
+        margin-top: -14rem;
+        margin-right: -0.8rem;
+    }
+    .story_details li span{
+        font-size: 0.7rem;
+    }
+    .sd_icon{
+        font-size: 8px;
+    }
+}
+
+@media screen and  (max-width:395px){
+    .story_card{
+        width: 329px;
+        padding: 0.3rem;
+    }
+    .sd_icon{
+        font-size: 13px;
+    }
+}

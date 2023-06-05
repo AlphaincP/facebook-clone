@@ -1,0 +1,83 @@
+.post_card{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0.02em 0.02em 0.2em rgba(0,0,0,0.2);
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 600px;
+}
+.post_options ul{
+    list-style-type: none;
+    display: flex;
+    margin: 1rem 0;
+}
+.p_account{
+    font-size: 40px;
+    background-color: #ccc;
+    border-radius: 30px;
+    padding: 0.5rem;
+}
+.post_card_header{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.post_card_header input{
+    margin: 0 1rem;
+    border: none;
+    background-color: whitesmoke;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    width: 30rem;
+    border-radius: 30px;
+    outline: none;
+}
+.post_options ul li{
+    padding: 0 1rem;
+    display: flex;
+}
+.post_options ul li span{
+    padding-left: 0.3rem;
+}
+.p_icon{
+    font-size: 20px;
+}
+.p_1{
+    color: red;
+}
+.p_2{
+    color: green;
+}
+.p_3{
+    color: orange;
+}
+@media screen  and (max-width:450px){
+    .post_card{
+        width: 355px;
+    }
+}
+@media  screen and (max-width:500px) {
+    .p_activity{
+        display: none;
+    }
+}
+@media (min-width:450px) and (max-width:700px){
+    .post_card{
+        width: 405px;
+        
+    }
+
+    .post_card{
+        width: 330px;
+    }
+}
+@media (min-width:550px) and (max-width:730px){
+    .post_card{
+        width: 480px;
+    }
+} 
+@media screen and (max-width:395px){
+    .post_card{
+        width: 330px;
+    }
+}
